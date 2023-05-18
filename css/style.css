@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+    h1,h2, h3, h4, h5, h6 p ul{
+        margin: 0;
+        padding: 0;
+    }
+
+header{
+
+    padding: 15px 0;
+}
+.info{
+
+display: flex;
+
+align-items: center;
+
+margin-left: 40px;
+}
+
+
+.icon{
+
+font-size: 32px;
+
+color: #f69165;
+
+margin-right: 7px;
+
+margin-bottom: 10px;
+
+}
+
+.content{
+
+}
+
+.content h4{
+    font-size: 15px;
+}
+
+.content p{
+    font-size: 14px;
+
+}
+.main_menu{
+    background: #00cce1;
+}
+
+.btn-appointment{
+
+    background: #f69165;
+    color: #FFf;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0;
+    padding: 15px 40px;
+    clip-path: polygon(15% 0, 92% 0, 85% 100%, 8% 100%);
+    transition: .4s all ease-in-out;
+}
+.btn-appointment:hover{
+    background: #f69165;
+    clip-path: polygon(10% 0, 80% 0, 90% 100%, 20% 100%);
+    color: #fff;
+}
+
+
+
+.btn-appointment i{
+
+margin-right: 8px;
+}
+
+.nav-link {
+    
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 !important;
+
+}
+.nav-link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    width: 0;
+    height: 4px;
+    background: #f69165;
+    transition: .4s all ease-in-out;
+
+}
+.nav-link:hover::before{
+    width: 100%;
+}
+
+
+.nav-link:hover{
+    color: #fff;
+
+}
+.nav-item{
+    padding: 0 15px;
+}
+
+.banner{
+    background-image: url(../images/background-2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    min-height: 80vh;
+    position: relative;
+
+}
+.banner h2{
+    background: #00cce1;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+
+}
+.banner h1{
+    background: #f69165;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.banner p{
+    color: #7c7d7d;
+}
+.btn-learn{
+    background: #f69165;
+    color: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    
+}
+/* .btn-learn:hover{
+    color: #fff;
+} */
+
+
+.btn-book{
+    background:  #00cce1;
+    color: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+/* .btn-book:hover{
+    color: #FFF;
+} */
+.btn:hover {
+    color: #212529;
+    background: #EFF8FA;
+}
+
+.height{
+    min-height: 80vh;
+    align-items: center;
+
+}
+.img{
+    position: absolute;
+    bottom: 0;
+}
